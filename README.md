@@ -1,6 +1,6 @@
 # machine-learning-and-intelligent-applications
 Some interesting applications applying machine learning/inteligent algorithms, such as face recognition, music generation, autonomous driving with car detection, sequence to sequence models, named entities classification on twitter, other text classification projects as well as an amazing chatbot (in active development and planning to be deployed on AWS) 
 
-In addition, we provide a script which implements all the functions of a deep CNN in both numpy (for CPU) and scikit-cuda/pycuda (for GPU) from scratch for image classification, inclusive of both forward pass and backward pass for convolution, pool-
+In addition, we provide a script (named cnn_from_scractch.py) which implements all the functions of a deep CNN in both numpy (for CPU) and scikit-cuda/pycuda (for GPU) from scratch for image classification, inclusive of both forward pass and backward pass for convolution, pool-
 ing, batchNorm, max-norm for weights, activation, dropout layers, residual modules, as well as advanced stochastic gradient
 descent method like Adam, for deep CNNs. We also provide model_load, model_save, data loader functions as well as preprocessing steps. Once you put cifar 10/100 data in certain folders, it is ready to train your first CNN. Further, we also provide components to easy your development, such as functions like blocks whichs consists of several layers in the same block. One can easily generalize to his own preferred structure. Feel free to try!
